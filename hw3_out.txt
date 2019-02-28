@@ -1,0 +1,25 @@
+----------- PROBLEM 1 --------------
+Sun:   0.0094 
+Betelgeuse:   0.0000 
+Coma Cluster:   0.0600 
+----------- PROBLEM 2 --------------
+Total Magnitude:  11.9291 
+----------- PROBLEM 3 --------------
+Total Magnitude (absolute):  -5.7682 
+----------- PROBLEM 4 --------------
+Total Mass: 9.215662e+45 kg 
+----------- PROBLEM 5 --------------
+Total Mass: 8.569786e+30 kg 
+----------- PROBLEM 6 --------------
+Luminosity A:B = 1.265392e+04 
+Temperature A:B =   0.7240 
+----------- PROBLEM 7 --------------
+Distance to 9 Sagittarii: 6.751432e+16 km 
+----------- PROBLEM 8 --------------
+Central Pressure K0V: 1.651346e+14 N/m^2 
+Central Pressure K0III: 3.288319e+10 N/m^2 
+Central Pressure K0I: 1.422658e+07 N/m^2 
+----------- PROBLEM 9 --------------
+See attached 
+----------- PROBLEM 10 --------------
+See attached 

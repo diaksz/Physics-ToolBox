@@ -45,6 +45,7 @@ electron_radius = 2.8179e-15; %m
 fine_structure = 7.297352e-3; %unitless
 kb_ev = 8.617e-5; %boltzmann constant in eV/K
 radius_sun = 695508; % km
+mass_sun = 1.989e30; %km
 save all;
 
 
@@ -78,7 +79,7 @@ elseif (strcmp(convertType,'m2AU'))
 
 % Arcseconds to degrees
 elseif (strcmp(convertType,'arcsec2deg'))
-    output = value*3600;
+    output = value*3600; % check here
     
 % Arcseconds to radians
 elseif (strcmp(convertType,'arcsec2rad'))
