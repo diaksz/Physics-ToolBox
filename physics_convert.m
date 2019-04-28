@@ -5,7 +5,7 @@ g = 9.81; %m/s^2
 c = 2.9979e8;  %m/s
 G = 6.67408e-11;  %Nm^2/kg^2
 mass_earth = 5.97e24; %kg
-radius_earth = 6371e3; %meters
+radius_earth = 6371e3; %m
 h_js = 6.626e-34; %Js --> Planck's Constant
 h_evs = 4.1357e-15; %eVs
 hc_jm = 1.9864e-25; %Jm
@@ -44,8 +44,8 @@ bohr_radius = 5.291772e-11; %m --> Bohr Radius
 electron_radius = 2.8179e-15; %m
 fine_structure = 7.297352e-3; %unitless
 kb_ev = 8.617e-5; %boltzmann constant in eV/K
-radius_sun = 695508; % km
-mass_sun = 1.989e30; %km
+radius_sun = 695508*1000; % m
+mass_sun = 1.989e30; %kg
 save all;
 
 
@@ -55,7 +55,7 @@ if strcmp('m2mm', convertType)
 elseif strcmp(convertType, 'j2ev')
     output = value*6.242e18;
 elseif strcmp(convertType, 'ev2j')
-    output = value/6.242e18;
+    output = value*1.6022e-19;
 elseif strcmp(convertType, 'ev2kg')
     output = value*e/(c^2);
 elseif strcmp(convertType, 'kg2ev')
@@ -122,31 +122,15 @@ elseif (strcmp(convertType,'day2sec'))
     output = value*86400;
 elseif (strcmp(convertType,'year2sec'))
     output = value*3.154e+7;
+elseif (strcmp(convertType,'sec2year'))
+    output = value*3.17098e-8;
+elseif (strcmp(convertType,'amu2kg'))
+    output = value*1.66054e-27;
     
 else
     disp('Sorry, I dont know that one yet')
 end
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 end
 %% End of Script
